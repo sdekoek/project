@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Order</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="logo.png">
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><img src="logo.png" width="67" height="76" alt="Joe's Bakery logo" id="logo"/></a>
+		<nav>
+			<a href="order.html">Order</a>
+			<a href="locations.html">Locations</a>
+			<a href="menu.html">Menu</a>
+			<a href="about.html">About Us</a>
+			<a href="index.html">Home</a>
+		</nav>
+	</header>
+	<main>
+		<div class="form">
+			<form action="#" method="post">
+				<h1>Order Form</h1>
+				<label for="name" required>Name:</label>&nbsp;<input type="text" id="name" name="name"><br><br>
+				<label for="method">Delivery Method:</label>
+					<input type="radio" id="pickup" name="method" value="pickup">
+						<label for="pickup">Pick Up</label>
+				<input type="radio" id="delivery" name="method" value="delivery">
+						<label for="delivery">Delivery</label><br><br>
+				<label for="address">Address:</label>&nbsp;<input type="text" id="address" name="address"><br><br>
+					<input type="checkbox" id="bake1" name="bake1" value="Pie">
+						<label for="bake1">Pie</label><br>
+					<input type="checkbox" id="bake2" name="bake2" value="Cake">
+						<label for="bake2">Cake</label><br>
+					<input type="checkbox" id="bake3" name="bake3" value="Cupcakes">
+						<label for="bake3">Cupcakes (1 dozen)</label><br>
+					<input type="checkbox" id="bake4" name="bake4" value="Cupcake">
+						<label for="bake4">Cupcake (single)</label><br>
+					<input type="checkbox" id="bake5" name="bake5" value="Brownies">
+						<label for="bake5">Brownies (1 dozen)</label><br>
+					<input type="checkbox" id="bake6" name="bake6" value="Brownie">
+						<label for="bake6">Brownie (single)</label><br><br>
+				<label for="spec">Specifications:</label><br>
+				<textarea id="specs" name="specs"></textarea><br>
+				 <input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<nav>
+			<a href="https://www.emich.edu/" target="_blank">Eastern Michigan University</a>
+		</nav>
+	</footer>
+</body>
+</html>
